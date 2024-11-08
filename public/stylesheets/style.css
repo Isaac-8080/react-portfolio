@@ -3,7 +3,8 @@
 
 :root{
   --primaryColor: #FBFCF8;
-  --secondaryColor: #373B40;
+  /* --secondaryColor: #373B40; */
+  --secondaryColor: #1D232A;
   /* --secondaryColor: #212121; */
   --darkTextColor: #C1C1C1;
   --lightTextColor: #000000;
