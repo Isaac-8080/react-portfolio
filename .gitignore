@@ -23,7 +23,11 @@ dist-ssr
 *.sln
 *.sw?
 
-components
-Navbar
+# components
+Navbar.jsx
+NavbarMd.jsx
+NavbarSm.jsx
+# NavbarMdList.jsx
 project
 script
+Hero.jsx

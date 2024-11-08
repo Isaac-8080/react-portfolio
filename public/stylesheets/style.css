@@ -45,10 +45,10 @@ nav {
   font-style: normal;
 }
 
-.navbar-transparent{
+/* .navbar-transparent{
   background-color: transparent;
   transition: background-color ease 0.4s;
-}
+} */
 
 .heading {
   font-family: "Prompt", sans-serif;
@@ -62,14 +62,7 @@ nav {
   font-style: normal;
 }
 
-/* .display-nav{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-} */
-
-/* .sm-navbar{
+.sm-navbar{
   position: fixed;
   left: 0;
   right: 0;
@@ -77,7 +70,7 @@ nav {
   height: 0;
   transition: all ease-in-out 0.4s;
   width: 100%;
-} */
+}
 
 /* .sm-navbar ul{
   overflow: hidden;
