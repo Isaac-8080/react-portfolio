@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 
 # components
-Navbar.jsx
+# Navbar.jsx
 NavbarMd.jsx
 NavbarMdList.jsx
 NavbarSm.jsx
