@@ -26,10 +26,10 @@ dist-ssr
 # components
 # Navbar.jsx
 # NavbarMd.jsx
-NavbarMdList.jsx
+# NavbarMdList.jsx
 # NavbarSm.jsx
-NavbarSmList.jsx
-project
+# NavbarSmList.jsx
+projectItem.jsx
 Hero.jsx
 AboutEducation
 Section.jsx
