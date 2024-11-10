@@ -27,7 +27,7 @@ dist-ssr
 # Navbar.jsx
 # NavbarMd.jsx
 NavbarMdList.jsx
-NavbarSm.jsx
+# NavbarSm.jsx
 NavbarSmList.jsx
 project
 Hero.jsx
