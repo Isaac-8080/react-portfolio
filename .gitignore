@@ -32,10 +32,11 @@ dist-ssr
 # projectItem.jsx
 # Hero.jsx
 Education.jsx
-About.jsx
+# About.jsx
 EducationItem.jsx
 # Section.jsx
 script
+Skills.jsx
 SkillsTechnologies
 
 # Reviews
