@@ -31,9 +31,14 @@ dist-ssr
 # NavbarSmList.jsx
 # projectItem.jsx
 # Hero.jsx
-AboutEducation
+Education.jsx
+About.jsx
+EducationItem.jsx
 # Section.jsx
 script
 SkillsTechnologies
-Reviews
+
+# Reviews
+Review.jsx
+ReviewItem.jsx
 Footer.jsx
