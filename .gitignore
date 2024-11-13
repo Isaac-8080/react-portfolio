@@ -37,7 +37,11 @@ dist-ssr
 # Section.jsx
 script
 Skills.jsx
-SkillsTechnologies
+Deployments.jsx
+OperatingSystems.jsx
+SkillsTechnologies.jsx
+ToolsSoftwares.jsx
+# Languages.jsx
 
 # Reviews
 Review.jsx
