@@ -38,7 +38,7 @@ dist-ssr
 script
 # Skills.jsx
 Deployments.jsx
-OperatingSystems.jsx
+# OperatingSystems.jsx
 SkillsTechnologies.jsx
 ToolsSoftwares.jsx
 # Languages.jsx
