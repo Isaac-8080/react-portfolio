@@ -54,6 +54,7 @@ const NavbarSm = () => {
   
   return (
     <>
+    
       <nav id="sm-navbar" className="sm-navbar dark-theme shadow-lg md:hidden z-[500]">
 
         {/* <!-- sm nav links --> */}

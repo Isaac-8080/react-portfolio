@@ -38,22 +38,22 @@ const Hero = () => {
             <div className="flex flex-row flex-wrap items-center gap-x-2 gap-y-5">
 
               <div>
-                <a href="https://www.linkedin.com/in/isaac-opoku-manu?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bsy%2FrhL%2F0St26ZVB00Nfm6A%3D%3D" target="_blank" className="py-2 px-3 hover:bg-primaryColor bg-[#FFFFFF] hover:text-[#FFFFFF] w-fit rounded-3xl border border-primaryColor ease-in-out duration-300 text-primaryColor text-[12px] font-bold">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/isaac-opoku-manu?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bsy%2FrhL%2F0St26ZVB00Nfm6A%3D%3D" target="_blank" className="py-2 px-3 hover:bg-primaryColor bg-[#FFFFFF] hover:text-[#FFFFFF] w-fit rounded-3xl border border-primaryColor ease-in-out duration-300 text-primaryColor text-[12px] font-bold cursor-pointer">LinkedIn</a>
               </div>
 
               <div>
-                <a href="https://gradeone.vercel.app/" className="py-2 px-3 hover:bg-[#FFFFFF] bg-primaryColor w-fit rounded-3xl border border-primaryColor ease-in-out duration-300 hover:text-primaryColor text-[#FFFFFF] text-[12px] font-bold" target="_blank">GradeOne</a>
+                <a href="https://gradeone.vercel.app/" className="py-2 px-3 hover:bg-[#FFFFFF] bg-primaryColor w-fit rounded-3xl border border-primaryColor ease-in-out duration-300 hover:text-primaryColor text-[#FFFFFF] text-[12px] font-bold cursor-pointer" target="_blank">GradeOne</a>
               </div>
 
               <div>
-                <a href="mailto:isaacmanuopoku@gmail.com" className="py-2 px-3 hover:bg-primaryColor bg-[#FFFFFF] hover:text-[#FFFFFF] w-fit rounded-3xl border border-primaryColor ease-in-out duration-300  text-primaryColor text-[12px] font-bold">Email</a>
+                <a href="mailto:isaacmanuopoku@gmail.com" className="py-2 px-3 hover:bg-primaryColor bg-[#FFFFFF] hover:text-[#FFFFFF] w-fit rounded-3xl border border-primaryColor ease-in-out duration-300  text-primaryColor text-[12px] font-bold cursor-pointer">Email</a>
               </div>
               
               <div>
-                <a href="https://github.com/Isaac-8080" target="_blank" className="py-2 px-3 hover:bg-primaryColor bg-[#FFFFFF] hover:text-[#FFFFFF] w-fit rounded-3xl border border-primaryColor ease-in-out duration-300  text-primaryColor text-[12px] font-bold">Github</a>
+                <a href="https://github.com/Isaac-8080" target="_blank" className="py-2 px-3 hover:bg-primaryColor bg-[#FFFFFF] hover:text-[#FFFFFF] w-fit rounded-3xl border border-primaryColor ease-in-out duration-300  text-primaryColor text-[12px] font-bold cursor-pointer">Github</a>
               </div>
 
-              <a href="./resume/Isaac-Opoku-Manu.pdf" download="Isaac Opoku Manu - Resume" className="flex flex-row items-center gap-1 py-1 px-3 hover:bg-primaryColor bg-[#FFFFFF] hover:text-[#FFFFFF] w-fit rounded-3xl border border-primaryColor ease-in-out duration-300  text-primaryColor text-[12px] font-bold">
+              <a href="./resume/Isaac-Opoku-Manu.pdf" download="Isaac Opoku Manu - Resume" className="flex flex-row items-center gap-1 py-1 px-3 hover:bg-primaryColor bg-[#FFFFFF] hover:text-[#FFFFFF] w-fit rounded-3xl border border-primaryColor ease-in-out duration-300  text-primaryColor text-[12px] font-bold cursor-pointer">
                 <span className="material-symbols-rounded">arrow_downward</span>
                 <span>Resume</span>
               </a>

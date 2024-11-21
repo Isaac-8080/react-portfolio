@@ -66,12 +66,6 @@ const NavbarMd = () => {
           {/* <!-- nav links --> */}
           <ul className="flex flex-col gap-5 h-[25px] overflow-hidden hover:h-full ease-in-out duration-1000 opacity-95">
   
-            <li className="ease-in-out duration-300">
-              <span className="material-symbols-rounded hidden md:flex cursor-pointer">
-                more_horiz
-              </span>
-            </li>
-
             {
             navDetails.map((item, index) => (<NavbarMdList key={index} link={item.link} icon={item.icon} />))
             }
