@@ -23,27 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 
-# components
-# Navbar.jsx
-# NavbarMd.jsx
-# NavbarMdList.jsx
-# NavbarSm.jsx
-# NavbarSmList.jsx
-# projectItem.jsx
-# Hero.jsx
-# Education.jsx
-# About.jsx
-# EducationItem.jsx
-# Section.jsx
 script
-# Skills.jsx
-# Deployments.jsx
-# OperatingSystems.jsx
-# SkillsTechnologies.jsx
-# ToolsSoftwares.jsx
-# Languages.jsx
-
-# Reviews
-# Review.jsx
-# ReviewItem.jsx
-# Footer.jsx
