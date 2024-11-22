@@ -1,12 +1,23 @@
 import React from 'react'
 
-const ReviewItem = () => {
+const ReviewItem = (props) => {
   return (
     <>
-      
-      <div className="flex-none w-[400px] h-[220px] p-4 rounded-lg bg-secondaryColor text-[#FFFFFF] md:shadow-2xl italic">
-        "Isaac is not only a talented developer but also reliable and great at keeping us updated throughout the project. His skills in JavaScript, React, and database management were key to the success of our project. We’re looking forward to working with him again on future projects."
+      {/* <div> */}
+
+      <div className="flex-none w-[400px] h-[250px] my-auto p-4 rounded-lg bg-secondaryColor text-[#FFFFFF] md:shadow-2xl">
+        <div className='flex flex-col gap-2'>
+          <div className='flex flex-row gap-3 items-center'>
+            <img src={props.image} className='w-16 h-fit bg-white rounded-full' />
+            <div>
+              <p className='ml-5 font-bold'>{props.name}</p>
+              <p className=''>{'— ' + props.profession}</p>
+            </div>
+          </div>
+          <span className='italic pl-3'>{props.text}</span>
+        </div>
       </div>
+      {/* </div> */}
         
     </>
   )
