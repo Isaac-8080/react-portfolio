@@ -13,19 +13,23 @@ const Hero = () => {
   return (
     <>
 
-      <div id="hero-section" className="h-[100dvh] rounded md:px-[150px]">
+      <div id="hero-section" className="md:h-[80dvh] h-[100dvh] rounded md:px-[150px] bg-whit">
 
         <div className="flex flex-col md:flex-row-reverse items-center justify-end gap-5 h-[100dvh] mt-[20px] md:mt-0">
 
           <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="1">
             <img src="./images/image1.jpeg" className="w-[250px] border-[5px] rounded-full md:mt-0" alt="my head shot" />
+            <p className="p-2 dark-theme w-fit mx-auto -translate-y-10 text-center rounded-2xl text-[12px] font-bold">Open to work</p>
           </div>
           
           <div className="px-5 md:px-0 flex flex-col gap-2" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="1">
-            
-            <p className="px-2 bg-[#FFFFFF] w-fit rounded-lg border border-primary animate-bounce text-primaryColor text-[12px] font-medium mt-2">Open to work</p>
 
-            <p className="font-bold text-[20px] text-left">Hey, I'm Isaac,</p>
+            <div className='flex flex-row items-center gap-3'>
+              <p className="font-bold text-[20px] text-left py-1">Hey, I'm Isaac</p>
+            
+              {/* <p className="px-2 py-1 bg-[#FFFFFF] w-fit rounded-2xl duration-1000 border border-primary animate-pulse text-primaryColor text-[12px] font-bold">Open to work</p> */}
+            </div>
+            
 
             <h1 className="text-6xl font-black text-[#FFFFFF]">
               Building Innovative <br /> <span className="opacity-95 drop-shadow">Solutions with Code.</span>
@@ -53,9 +57,9 @@ const Hero = () => {
                 <a href="https://github.com/Isaac-8080" target="_blank" className="py-2 px-3 hover:bg-primaryColor bg-[#FFFFFF] hover:text-[#FFFFFF] w-fit rounded-3xl border border-primaryColor ease-in-out duration-300  text-primaryColor text-[12px] font-bold cursor-pointer">Github</a>
               </div>
 
-              <a href="./resume/Isaac-Opoku-Manu.pdf" download="Isaac Opoku Manu - Resume" className="flex flex-row items-center gap-1 py-1 px-3 hover:bg-primaryColor bg-[#FFFFFF] hover:text-[#FFFFFF] w-fit rounded-3xl border border-primaryColor ease-in-out duration-300  text-primaryColor text-[12px] font-bold cursor-pointer">
+              <a href="./resume/Isaac-Opoku-Manu.pdf" download="Isaac Opoku Manu - Resume" className="flex flex-row items-center gap-1 py-1 px-3 hover:bg-primaryColor bg-[#FFFFFF] hover:text-[#FFFFFF] w-fit rounded-3xl border border-primaryColor ease-in-out duration-300  text-primaryColor font-bold cursor-pointer">
                 <span className="material-symbols-rounded">arrow_downward</span>
-                <span>Resume</span>
+                <span className=' text-[12px]'>Resume</span>
               </a>
 
             </div>
