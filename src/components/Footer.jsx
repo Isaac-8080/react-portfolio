@@ -12,7 +12,7 @@ const Footer = () => {
           </a>
 
           <div>
-            <p className="text-darkTextColor text-medium"><span className="font-bold">Thanks for scrolling.</span> Can't wait to here form you!</p>
+            <p className="text-darkTextColor text-medium"><span className="font-bold">Thanks for scrolling.</span> Can't wait to here from you!</p>
           </div>
 
           <div className="flex flex-row flex-wrap items-center gap-3">

@@ -53,7 +53,7 @@ const ProjectItem = (props) => {
             
             <p className="flex flex-row items-center gap-1 text-primaryColor font-bold text-[14px]">
               <span className="material-symbols-rounded font-black text-lg">line_end_arrow_notch</span>
-              <a>Private Repo</a> | <a href={props.demoLink} target="_blank" className="hover:bg-[lightgray] p-1 rounded">Demo</a>
+              <a>Private Repo</a> | <a href={props.demoLink} target="_blank" className="hover:text-[lightgray] p-1 rounded">Demo</a>
             </p>
 
           </div>
