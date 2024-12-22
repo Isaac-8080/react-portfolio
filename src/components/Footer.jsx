@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <footer className="px-5 lg:px-[150px] bg-secondaryColo py-20">
+      <footer className="px-5 lg:px-[150px] py-20">
         <span id="contact" className=""></span>
         <div className="flex flex-col items-center gap-5">
           
