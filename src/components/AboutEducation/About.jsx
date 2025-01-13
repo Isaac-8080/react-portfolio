@@ -39,7 +39,7 @@ const About = () => {
             <a href="https://github.com/Isaac-8080" target="_blank" className="py-2 px-3 hover:bg-primaryColor bg-[#FFFFFF] hover:text-[#FFFFFF] w-fit rounded-3xl border border-primaryColor ease-in-out duration-300  text-primaryColor text-[12px] font-bold">Github</a>
           </div>
 
-          <a href="./resume/Isaac-Opoku-Manu.pdf" download="Isaac Opoku Manu - Resume" className="flex flex-row items-center gap-1 py-1 px-3 hover:bg-primaryColor bg-[#FFFFFF] hover:text-[#FFFFFF] w-fit rounded-3xl border border-primaryColor ease-in-out duration-300  text-primaryColor text-[12px] font-bold">
+          <a href="./resume/Isaac-Opoku-Manu-resume.pdf" download="Isaac Opoku Manu - Resume" className="flex flex-row items-center gap-1 py-1 px-3 hover:bg-primaryColor bg-[#FFFFFF] hover:text-[#FFFFFF] w-fit rounded-3xl border border-primaryColor ease-in-out duration-300  text-primaryColor text-[12px] font-bold">
             <span className="material-symbols-rounded">arrow_downward</span>
             <span>Resume</span>
           </a>
