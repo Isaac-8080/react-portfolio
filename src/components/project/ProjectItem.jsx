@@ -3,10 +3,11 @@ import React from 'react'
 const ProjectItem = (props) => {
   return (
     <>
-      <div className="w-fit rounded-xl shadow-md" data-aos="zoom-in-out" data-aos-duration="1000">
+      <div className="w-fit rounded-xl shadow-md border border-gray-700 p-0.5 hover:border-primaryColor tra ease-in-out duration-300" data-aos="zoom-in-out" data-aos-duration="1000">
 
         <div className="cursor-pointer w-fit">
           
+          {/* <img src={props.image} className="w-[30px] rounded-t-xl opacity-50" alt="project-img" /> */}
           <img src={props.image} className="w-[100%] rounded-t-xl" alt="project-img" />
           
         </div>

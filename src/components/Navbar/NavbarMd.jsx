@@ -51,9 +51,9 @@ const NavbarMd = () => {
 
   return (
     <>
-      <nav>
+      <nav className='bg-white w-full'>
 
-        <a href="https://github.com/Isaac-8080" className="fixed z-[500] left-5 top-5" target="_blank">
+        <a href="https://github.com/Isaac-8080" className="fixed z-[500] left-5 xl:left-[100px] top-5" target="_blank">
           <img src="./icons/icons8-github-48.png" className="w-[40px] cursor-pointer border border-primaryColor bg-[#F2F2F2] rounded-full" alt="brand-image" />
         </a>
 
@@ -61,7 +61,7 @@ const NavbarMd = () => {
           more_horiz
         </span>
           
-        <div className="fixed top-5 right-5 bg-[#F2F2F2] text-[#111] p-2 rounded-full z-[500] hidden md:flex border border-primaryColor">
+        <div className="fixed top-5 right-5 xl:right-[100px] bg-[#F2F2F2] text-[#111] p-2 rounded-full z-[500] hidden md:flex border border-primaryColor">
           
           {/* <!-- nav links --> */}
           <ul className="flex flex-col gap-5 h-[25px] overflow-hidden hover:h-full ease-in-out duration-1000 opacity-95">
