@@ -47,7 +47,7 @@ const Hero = () => {
             </h1>
 
 
-            <hr className='border-gray-700 my-5' />
+            <hr className='border-gray-700 my-2 md:my-5' />
 
             <h2 className="text-2xl text-center opacity-95 hidden md:block">
               Web developer with a passion for creating scalable and efficient software

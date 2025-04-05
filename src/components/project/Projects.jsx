@@ -106,7 +106,7 @@ const Projects = () => {
     <>
 
       <span id="projects" className=""></span>
-      <Section classList="">
+      <Section classList="-translate-y-10" className="">
 
         <div className="flex flex-row items-center gap-2" data-aos="zoom-in-out" data-aos-duration="1000">
           <span className="material-symbols-rounded text-primaryColor font-black text-3xl">
