@@ -39,7 +39,7 @@ const Hero = () => {
             data-aos-offset="1"
           >
             <h1 className="text-center text-2xl opacity-95">
-              Hey, I'm Isaac
+              Hey, I'm Isaac,
             </h1>
 
             <h1 className="text-6xl md:text-7xl lg:text-7xl font-bold text-center text-[#FFFFFF]">
